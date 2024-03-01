@@ -9,7 +9,7 @@ export const App: Component = () => {
       <header class={styles.header}>
         <img src="/public/images/logo.svg" class={styles.logo} alt="logo" />
         <p class="text-green-500 font-bold animate-bounce animate-infinite">
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/web/app.tsx</code> and save to reload.
         </p>
         <a
           class={styles.link}
