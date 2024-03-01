@@ -1,0 +1,44 @@
+{
+  "name": "solidjs-ts-tailwindcss-animatecss",
+  "version": "0.0.0",
+  "description": "SolidJS Typescript Template from\ngithub/solidjs/templates/ts,\npre-configured with TailwindCSS and Animate.css",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node dist/index.js",
+    "dev": "NODE_ENV=development tsx src/index.ts",
+    "build": "rollup -c rollup.config.js",
+    "clean": "rm -rf dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/express": "^4.17.21",
+    "animated-tailwindcss": "^3.0.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.5",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-plugin-solid": "^2.8.2"
+  },
+  "dependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "solid-js": "^1.8.11"
+  },
+  "keywords": [
+    "typescript",
+    "solidjs",
+    "tailwind",
+    "tailwindcss",
+    "animate"
+  ]
+}
